@@ -9,6 +9,8 @@ public class ATM {
 	public static void main(String[] args) {
 		ATM atm = new ATM(new account(500, 12345, new user("Will", 1234567890, "Nowhere's Ville", 1234567890), 12345));
 		
+		// Credentials: Acnt Num: 12345, pin: 12345
+		
 		atm.login();
 		
 		atm.menu();
